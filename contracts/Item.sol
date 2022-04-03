@@ -10,7 +10,7 @@ import "./ItemManager.sol";
     the ItemManager contract.
 
     We create a new Item in ItemManager, it gives us a new address where we have to deploy the Item contract,
-    and we give that address to the custer, so they can send money to that address, and in this way they bought the item.
+    and we give that address to the customer, so they can send money to that address, and in this way they bought the item.
 */
 contract Item{
     uint public priceInWei;
